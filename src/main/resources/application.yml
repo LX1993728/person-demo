@@ -1,0 +1,10 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    include: email,jdbc
+  thymeleaf:
+    cache: false
+  mvc:
+    format:
+      date: yyyy-MM-dd

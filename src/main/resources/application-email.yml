@@ -1,0 +1,18 @@
+spring:
+  mail:
+    port: 465
+    host: smtp.qq.com
+    username: 2652790899@qq.com
+    password: iulhpfkllfwdecgi
+    properties:
+      mail:
+        transport:
+          protocol: smtp
+        smtp:
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+            port: ${spring.mail.port}
+          auth: true
+          starttls:
+            enable: true
+            required: true
