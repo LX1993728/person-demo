@@ -111,7 +111,7 @@
                     <baseImage>java:8</baseImage>
                     <entryPoint>["java","-jar","/${project.build.finalName}.jar"]</entryPoint>
                     <exposes>
-                        <expose>8761</expose>
+                        <expose>8080</expose>
                     </exposes>
                     <resources>
                         <resource>
